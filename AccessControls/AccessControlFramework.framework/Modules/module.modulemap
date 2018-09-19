@@ -1,0 +1,11 @@
+framework module AccessControlFramework {
+  umbrella header "AccessControlFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module AccessControlFramework.Swift {
+    header "AccessControlFramework-Swift.h"
+    requires objc
+}
